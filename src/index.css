@@ -11,3 +11,21 @@ body {
   margin: 0;
   padding: 0;
 }
+
+header {
+  background-color: var(--pink);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1em;
+}
+
+a {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+a:hover,
+a:active {
+  color: var(--light-blue);
+}
