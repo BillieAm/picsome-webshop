@@ -53,3 +53,24 @@ img.image-grid {
   height: 100%;
   object-fit: cover;
 }
+
+.image-container {
+  position: relative;
+}
+
+.icon {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 0.3rem;
+  cursor: pointer;
+}
+
+.ri-heart-line {
+  color: var(--red);
+  left: 0.3rem;
+}
+
+.ri-add-circle-line {
+  color: var(--blue);
+  right: 0.3rem;
+}
