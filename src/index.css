@@ -71,7 +71,8 @@ img.image-grid {
   left: 0.3rem;
 }
 
-.ri-add-circle-line {
+.ri-add-circle-line,
+.ri-shopping-cart-fill {
   color: var(--blue);
   right: 0.3rem;
 }
