@@ -65,7 +65,8 @@ img.image-grid {
   cursor: pointer;
 }
 
-.ri-heart-line {
+.ri-heart-line,
+.ri-heart-fill {
   color: var(--red);
   left: 0.3rem;
 }
