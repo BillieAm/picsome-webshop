@@ -29,6 +29,39 @@ main.photos {
   grid-auto-flow: dense;
 }
 
+main.cart-page {
+  padding: 1em;
+}
+
+main.cart-page > h1 {
+  text-align: center;
+}
+
+.cart-page .total-cost {
+  text-align: right;
+  font-size: 1.3rem;
+}
+
+.cart-page .order-button {
+  display: block;
+  margin: 0 auto;
+  padding: 0.7em 1.5em;
+  font-weight: 700;
+  border-color: var(--black);
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1em 0;
+}
+
+.cart-item img {
+  margin-right: auto;
+  margin-left: 1em;
+}
+
 .big {
   grid-column: span 2;
   grid-row: span 2;
