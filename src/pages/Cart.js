@@ -29,9 +29,11 @@ function Cart() {
       <h1>Check out</h1>
       {cartItemElements}
       <p className="total-cost">Total: {totalDisplay}</p>
-      <button onClick={placeOrder} className="order-button">
-        {buttonText}
-      </button>
+      {cartItems.length > 0 && (
+        <button onClick={placeOrder} className="order-button">
+          {buttonText}
+        </button>
+      )}
     </main>
   );
 }
