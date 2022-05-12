@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/picsome-webshop/static/css/main.3643174f.css",
-    "main.js": "/picsome-webshop/static/js/main.a0142788.js",
+    "main.js": "/picsome-webshop/static/js/main.9c0d4fbb.js",
     "index.html": "/picsome-webshop/index.html",
     "main.3643174f.css.map": "/picsome-webshop/static/css/main.3643174f.css.map",
-    "main.a0142788.js.map": "/picsome-webshop/static/js/main.a0142788.js.map"
+    "main.9c0d4fbb.js.map": "/picsome-webshop/static/js/main.9c0d4fbb.js.map"
   },
   "entrypoints": [
     "static/css/main.3643174f.css",
-    "static/js/main.a0142788.js"
+    "static/js/main.9c0d4fbb.js"
   ]
 }
