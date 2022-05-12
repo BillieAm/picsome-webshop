@@ -9,7 +9,7 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route path="/picsome-webshop" element={<Photos />} />
+        <Route path="/" element={<Photos />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
     </div>
