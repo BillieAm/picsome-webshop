@@ -6,10 +6,6 @@ function ContextProvider({ children }) {
   const [allPhotos, setAllPhotos] = useState([]);
   const [cartItems, setCartItems] = useState([]);
 
-  // const url = "https://picsum.photos/v2/list";
-
-  // const url = "https://picsum.photos/v2/list?limit=50";
-
   const url =
     "https://raw.githubusercontent.com/bobziroll/scrimba-react-bootcamp-images/master/images.json";
 
